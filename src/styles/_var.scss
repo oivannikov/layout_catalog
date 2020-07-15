@@ -9,6 +9,6 @@ $sizeStar: 15px;
 $marginGrid-Y: 51px;
 $marginGrid-X: 48px;
 $countCardInRow: 4;
-$mediaScreen: 
+$maxWidth: 
   ($widthProduct * $countCardInRow) + 
-  ($marginGrid-X * ($countCardInRow - 1));
+  ($marginGrid-X *  ($countCardInRow - 1));
