@@ -1,0 +1,10 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat($countCardInRow, $widthProduct);
+  gap: $marginGrid-Y $marginGrid-X;
+  justify-content: center;
+
+  @media (max-width: $mediaScreen) {
+    grid-template-columns: repeat(auto-fit, $widthProduct);
+  }
+}
